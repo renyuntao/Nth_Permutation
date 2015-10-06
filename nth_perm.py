@@ -16,7 +16,9 @@ def Nth_Perm(nth,num,arr):   #nth = The n'th permutation,num = the length of arr
     ans.append(''.join(temp))
 
 ############### Example ##################
+#The lexicographic permutation of 'ABCD':
+# ABCD ABDC ACBD ACDB ADBC ADCB BACD BADC ...
 seq = ['A','B','C','D']
 ans = []
-Nth_Perm(3,4,seq)
+Nth_Perm(5,4,seq)   #find 5th permutation,i.e. ADBC
 print(*ans)
